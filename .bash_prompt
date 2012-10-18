@@ -1,4 +1,4 @@
-if brew > /dev/null 2>&1; then
+if [ -x brew ]; then
 	GIT_COMPLETION_PATH=`brew --prefix`/etc/bash_completion
 else
 	GIT_COMPLETION_PATH=/etc/bash_gitcompletion
