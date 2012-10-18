@@ -1,14 +1,14 @@
 if brew > /dev/null 2>&1; then
-    GIT_COMPLETION_PATH=`brew --prefix`/etc/bash_completion
+	GIT_COMPLETION_PATH=`brew --prefix`/etc/bash_completion
 else
-    GIT_COMPLETION_PATH=/etc/bash_gitcompletion
+	GIT_COMPLETION_PATH=/etc/bash_gitcompletion
 fi
 
 if [ -f $GIT_COMPLETION_PATH ]; then
-    . $GIT_COMPLETION_PATH
-    GIT_PS1_SHOWDIRTYSTATE=true # */+ for dirty
-    GIT_PS1_SHOWSTASHSTATE=true # $ for stashes
-    GIT_PS1_SHOWUNTRACKEDFILES=true # % for untracked
+	. $GIT_COMPLETION_PATH
+	GIT_PS1_SHOWDIRTYSTATE=true # */+ for dirty
+	GIT_PS1_SHOWSTASHSTATE=true # $ for stashes
+	GIT_PS1_SHOWUNTRACKEDFILES=true # % for untracked
 fi
 
 PS1='[\u@\h \W]\[\033[31m\]$(__git_ps1)\[\033[00m\]\$ '
