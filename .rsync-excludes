@@ -1,0 +1,10 @@
+.svn/
+.git/
+*.tmp
+*.pyc
+*.tmproj
+*.log
+*.out
+*.err
+*.swp
+*.swo
