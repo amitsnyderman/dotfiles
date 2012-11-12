@@ -19,3 +19,15 @@ alias l="ls -l ${colorflag}"
 alias la="ls -la ${colorflag}"
 
 alias vi="vim"
+
+function note() {
+	f=`date +%Y%m%d%H%M`
+
+	if [[ $1 ]]; then
+		f="$f-$1.txt"
+	else
+		f="$f.txt"
+	fi
+	touch $f
+	$EDITOR $f
+}
