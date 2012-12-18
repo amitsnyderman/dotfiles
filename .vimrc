@@ -22,7 +22,7 @@ set history=1000
 
 set number
 set list
-set listchars=tab:▸\ ,eol:¬
+set listchars=tab:\|\ 
 set autoindent
 
 set ignorecase
