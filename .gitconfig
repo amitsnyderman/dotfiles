@@ -25,5 +25,7 @@
   type = cat-file -t
   dump = cat-file -p
   rpull = pull --rebase --stat
+  stashpull = !git stash && git rpull && git stash pop
+  cleanpull = !git checkout -- . && git rpull
 [branch]
     autosetupmerge = true
