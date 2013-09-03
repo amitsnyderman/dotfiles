@@ -1,5 +1,5 @@
 if [ -x /usr/local/bin/brew ]; then
-	GIT_COMPLETION_PATH=`brew --prefix`/etc/bash_completion
+	GIT_COMPLETION_PATH=`brew --prefix`/etc/bash_completion.d/git-prompt.sh
 else
 	GIT_COMPLETION_PATH=/etc/bash_gitcompletion
 fi
