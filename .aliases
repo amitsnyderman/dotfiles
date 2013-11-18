@@ -19,6 +19,7 @@ alias l="ls -l ${colorflag}"
 alias la="ls -la ${colorflag}"
 
 alias vi="vim"
+alias gdiff="gist -c -t diff"
 
 function note() {
 	f=`date +%Y%m%d%H%M`
