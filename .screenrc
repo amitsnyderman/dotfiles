@@ -1,4 +1,0 @@
-startup_message off
-hardstatus on
-hardstatus alwayslastline
-hardstatus string '%{= kG}[%{G}%H%{g}][%= %{= kw}%?%-Lw%?%{g}<%{W}%n%f: %t%?(%u)%?%{g}>%{w}%?%+Lw%?%?%= %{g}][%{B}%D, %m/%d %{G}%C%A]'
