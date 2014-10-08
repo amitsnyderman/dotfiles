@@ -1,0 +1,6 @@
+#!/bin/zsh
+
+setopt EXTENDED_GLOB
+for rcfile in $HOME/dotfiles/^install(.); do
+	ln -s "$rcfile" "${HOME}/.${rcfile:t}"
+done
