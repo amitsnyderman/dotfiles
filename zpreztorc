@@ -29,7 +29,7 @@ zstyle ':prezto:module:editor' key-bindings 'emacs'
 
 # Prompt
 
-zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt' theme 'damoekri'
 
 
 # SSH
