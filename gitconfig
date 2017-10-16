@@ -31,3 +31,8 @@
   cleanpull = !git checkout -- . && git rpull
 [branch]
     autosetupmerge = true
+[user]
+	name = Amit Snyderman
+	email = amit@amitsnyderman.com
+[push]
+	default = simple
