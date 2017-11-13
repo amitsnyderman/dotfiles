@@ -12,3 +12,9 @@ fi
 if [ -d "$HOME/Documents/go" ]; then
   export GOPATH="$HOME/Documents/go"
 fi
+
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+bindkey -e
+
